@@ -17,10 +17,10 @@ int linear_search(const int *arr, int size, int search_element) {
 }
 
 int main() {
-	int array[1000], i;
+	int array[100], i;
 
 	// Initializing array with 1,2,....,100
-	for (i = 1; i <= 1000; i++)
+	for (i = 1; i <= 100; i++)
 		array[i-1] = i;
 
 	// Elements to be searched in the array
