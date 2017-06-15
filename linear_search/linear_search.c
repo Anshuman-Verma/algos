@@ -11,9 +11,9 @@ int linear_search(const int *arr, int size, int search_element) {
 	int i;
 	for (i = 0; i < size; i++) {
 		if (arr[i] == search_element)
-			return i;				// Element found
+			return i;					// Element found
 	}
-	return -1;						// Element not found
+	return -1;							// Element not found
 }
 
 int main() {
