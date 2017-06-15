@@ -19,7 +19,7 @@ int linear_search(const int *arr, int size, int search_element) {
 int main() {
 	int array[1000], i;
 
-	// Initializing array with 1,2,....,1000
+	// Initializing array with 1,2,....,100
 	for (i = 1; i <= 1000; i++)
 		array[i-1] = i;
 
