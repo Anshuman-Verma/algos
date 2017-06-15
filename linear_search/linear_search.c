@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
 *  Algorithm to find a given number in an array
 *  *arr : given array to search in
